@@ -1,0 +1,44 @@
+  #for printing ANYTHNG INjava 
+    {System.out.println("Hello, World!");
+    System.out.println("My name is Suhani.");
+    System.out.println("I am learning Java.");
+
+    int  nums1 = 3;
+    int nums2=4;
+    int nums3 = 5;
+    int sum = nums1+nums2+nums3;
+    System.out.println(sum);
+
+
+     # LITRALS IN JAVA 
+    byte  age = 67;
+    int age1 =80;
+    short age2 = 78;
+    long age8 = 67467677787979L;
+    char a = 'y';
+    double  AGE7 = 7.89D;
+    float age9 = 7.98f;
+    boolean  age78 = true;
+
+
+     # SOME EXTRA INFO 
+       import java.util.Scanner;
+public static void main(String[] args ) {
+
+       System.out.println("Take input from user");
+        Scanner sc = nln(b1);
+        System.out.println("Enter YOUR SECOND INPUT");
+        int c = sc.nextInt;
+        float b = sc.nextFloat();
+        int sum = a + c;ew Scanner(System.in);
+         int a = sc.nextInt;
+    float  a = sc.nextFloat();
+     boolean b1 = sc.hasNextInt(); 
+      System.out.print
+      float sum= a + b ;
+      System.out.println("the sum of the no");
+        System.out.println( sum);
+        String str = sc.nextLine();
+        System.out.println(str);
+
+    
