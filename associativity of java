@@ -1,0 +1,72 @@
+class main {
+    public static void main(String[] args)
+    {
+       int a = 6 * 5 - 34/2;
+
+         /* highest  precedence goes to * then / . they are  evaluated  on the basis of left to right  associativity
+         30 - 34/2
+         30-17
+         13
+         */
+        // precedence & associativity
+
+        int b =  60/5-34*2;
+
+        /*
+         12 - 34*2
+        12-68
+        */
+         System.out.println(a);
+         System.out.println(b);
+
+        
+
+
+
+    }
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class main {
+    public static void main(String[] args ){
+        // QUICK QUIZ
+       int x = 7;
+      int  y = 8;
+     // int k = x-y/2;
+      // System.out.println(k);
+
+      int b =8;
+      int a = 7;
+      int c=9;
+
+       int k = b*b - (4*a*c)/2*a;
+        System.out.println(k);
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class main {
+    public static void main(String[] args) {
+        //increment && decrement
+        int i = 9;
+        // int k= i++; first i is assigned then incremnt k (9)
+         int b =8;
+         // int  c= ++i; first i increment then assigned to j(10)
+        System.out.println(i);
+
+        System.out.println(i++);
+
+        System.out.println(++i);
+
+        System.out.println(i);
+    }
+}
+
+
+
+
+
+
+
+
+
+
