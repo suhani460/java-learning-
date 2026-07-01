@@ -1,0 +1,96 @@
+// sum of three no 
+import java.util.Scanner;
+ class main {
+
+public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+        System.out.println ( "enter input a: ");
+        System.out.println("enter input  b: ");
+        System.out.println("enter input c: ");
+        int a = sc.nextInt();
+         int b = sc.nextInt();
+         int c = sc.nextInt();
+
+           int sum =   (a+b+c);
+           System.out.println( sum );
+
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Write a program to calculate CGPA using marks of three subjects (out of 100)
+import java.util.Scanner;
+ class main {
+public static void main(String[] args){
+    // Write a program to calculate CGPA using marks of three subjects (out of 100)
+       Scanner sc = new Scanner(System.in);
+       System.out.println("enter a marks sub1 :");
+               System.out.println("enter a marks sub2 :");
+               System.out.println("enter a marks sub3 :");
+     float sub1 =  sc.nextInt();
+       float sub2= sc.nextInt();
+       float sub3 = sc.nextInt();
+       if (sub1>100 || sub2>100 || sub3 > 100 || sub1<0 || sub2<0 ||
+       sub3<0)
+    {
+        System.out.println("invalid no ");
+    }else{
+
+
+        float cgpa = (sub1 + sub2 + sub3) / 3;
+        System.out.println(cgpa);
+    }
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Write a Java program that asks the user to enter his/her name and greets them with “Hello <name>, have a good day” text
+import java.util.Scanner;
+ class main {
+public static void main(String[] args){
+    //Write a Java program that asks the user to enter his/her name and
+    // greets them with “Hello <name>, have a good day” text
+     Scanner sc = new Scanner(System.in);
+     System.out.println("enter your name :  ");
+
+     String name  = sc.nextLine();
+     System.out.println("hello " +name+" ,have a good day " );
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Write a Java program to convert Kilometers to miles.
+import java.util.Scanner;
+ class main {
+public static void main(String[] args){
+    //Write a Java program to convert Kilometers to miles.
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the  kilometers: ");
+     float kilometers = sc.nextFloat();
+    float  miles = kilometers  * 0.621371f;
+    System.out.println(miles);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Write a Java program to detect whether a number entered by the user is an integer or not.
+import java.util.Scanner;
+ class main {
+public static void main(String[] args){
+    Scanner sc =  new Scanner(System.in);
+    System.out.println("enter you name ");
+     if(sc.hasNextInt()) {
+         int number = sc.nextInt();
+         System.out.println("the no is integer ");
+
+
+     } else {
+         System.out.println("the no is not an integer");
+
+     }
+
+    }
+}
+
+
+
+
+
+
+
