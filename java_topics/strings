@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[]args){
+        String name  = new String("HARRY");
+        System.out.println(name);
+       // String name = "harry";
+        System.out.println("This is the name:");
+        //System.out.println(name);
+         int a = 56;
+         float b = 8.89f;
+         System.out.printf("this is a no %d and the no  b is %f " ,a,b);
+        System.out.format("this is a no %d and the no  b is %f " ,a,b);
+        Scanner sc = new Scanner(System.in);
+            //String st = sc.next();
+            String st = sc.nextLine();// for reading the white space and the wholw line
+        System.out.println(st);
+
+    }
+
+}
