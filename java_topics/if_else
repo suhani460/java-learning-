@@ -1,0 +1,16 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+class Main{
+    public static void main(String[]args){
+        int age = 18;
+         if (age > 67){
+             System.out.println("suhani to badhi hain ");
+         }
+          else {
+             System.out.println("suhani choti hain ");
+        }
+
+
+    }
+}
