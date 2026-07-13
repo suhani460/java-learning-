@@ -1,0 +1,69 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+//        System.out.println(" For Loops Using");
+//        for(int i = 0;i<12;i++){
+//            System.out.println(i);
+//            System.out.println("ye mera loop");
+//            if(i==2){
+//                System.out.println("chl loop bnd hogyaa");
+//                break;
+        // }
+
+
+//    int i = 0;
+//        while(i<  5){
+//        System.out.println(i);
+//        System.out.println("java is great");
+//        if (i == 2) {
+//            System.out.println(" chl loop tu khatam huaa");
+//            break;
+//        }
+//        i++;
+//       }
+//        System.out.println("chl htt loop ke bachee");
+//        }
+//}
+
+//        int i = 0;
+//        do {
+//            System.out.println(i);
+//            System.out.println("java is great");
+//            if (i == 2) {
+//                System.out.println(" chl loop tu khatam huaa");
+//                break;
+//            }
+//            i++;
+//        } while (i < 5);
+//
+//            System.out.println("chl htt loop ke bachee");
+//        }
+//    }
+
+//        for (int i = 0; i < 5; i++) {
+//            if (i == 2) {
+//                System.out.println("BUM BUM CHIKI");
+//                continue;
+//            }
+//                System.out.println("loop to vaisa hi hain");
+//
+//        }
+//    }
+//}
+        int i = 0;
+        do {
+            i++;
+            if (i == 2) {
+                System.out.println("bum bum chiki chiki ");
+                continue;
+            }System.out.println(i);
+            System.out.println("chll chla de loop ");
+        }
+            while (i < 5) ;
+
+            System.out.println("loop chup hoja ");
+
+    }
+}
