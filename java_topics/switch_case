@@ -1,0 +1,32 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        int age;
+        System.out.println("Enter your age ");
+        Scanner sc = new Scanner(System.in);
+         age = sc.nextInt();
+          switch (age) {
+              case 18:
+                  System.out.println("you are a college student ");
+                  break;
+              case 50:
+                  System.out.println("tu tu buddha hain ");
+                  break;
+              default:
+                  System.out.println("your a  person jo pagal hain");
+          }
+//         if ( age < 10 ) {
+//             System.out.println("your are small");
+//         } else if (age < 20 ) {
+//             System.out.println("your belong to middle age ");
+//         } else if (age < 50) {
+//             System.out.println("your becomming in old age ");
+//         }
+//         else {
+//             System.out.println("your are a jyada buddha");
+         }
+
+    }
