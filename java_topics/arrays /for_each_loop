@@ -1,1 +1,31 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        int[] marks = {21, 62, 75, 86, 79};
+//        System.out.println(marks.length);
+//        System.out.println(marks[0]);
+//        //displaying the size of array
+//        System.out.println(marks[0]);
+//        System.out.println(marks[1]);
+//        System.out.println(marks[2]);
+//        System.out.println(marks[3]);
+//        System.out.println(marks[4]);
+
+        //displaying the array using for loop
+//
+//        for (int i = 0; i < marks.length; i++) {
+//            System.out.println(marks[i]);
+//        }
+//quick quiz :displaying the array using for each loop
+//        for (int element : marks) {
+//            System.out.println(element);
+//        }
+        // displaying the array in reverse order using for loop
+        for (int i = marks.length - 1; i >= 0; i--) {
+            System.out.println(marks[i]);
+        }
+    }
+}
 
