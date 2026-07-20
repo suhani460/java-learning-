@@ -1,0 +1,45 @@
+class main {
+     static  void foo(){
+         System.out.println("Good morning bro!");
+     }
+      static  void  foo(int a ){
+          System.out.println("Goood morning " + a + "broo!");
+      }
+
+      static  void foo(int a ,int b) {
+          System.out.println("Good morning" +a+ "," +b+ "broo!");
+      }
+    static void change(int a) {
+        a = 98;
+    }
+
+
+    static void change2(int[] arr) {
+        arr[0] = 78;
+    }
+
+    static void telljoke() {
+        System.out.println("I invented a new word!\n" +
+                "plagiarism");
+    }
+
+    public static void main(String[] args) {
+//      telljoke();
+//      int[] marks = {12, 76.89,}
+
+//       case 1: changing the integer
+//        int x = 45;
+//        change(x);
+//        System.out.println("the value of x after running change is   : " + x);
+
+//        case 1: changing the integer
+//        int[] marks = {12, 76, 89, 67, 56};
+//        change2(marks);
+//        System.out.println("the value of x after running change is   : " + marks[0]);
+
+        //Metho overloading
+        foo();
+        foo(3000);
+        foo(300,700);
+    }
+}
