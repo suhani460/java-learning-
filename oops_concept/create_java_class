@@ -1,0 +1,40 @@
+
+
+class Employee {
+    int id;
+    String name;
+    int salary;
+
+    public void printDetails() {
+        System.out.println("my id is " + id);
+        System.out.println("and my name is " + name);
+    }
+    public int getSalary(){
+        return salary;
+    }
+}
+
+ class main {
+    public static void main(String[] args){
+        System.out.println("this is our custom class");
+        Employee suhani = new Employee();
+        Employee zoro = new Employee();
+        Employee nistha = new Employee();
+
+//setting attribute
+         suhani.id = 45;
+         nistha.id = 89;
+         suhani.name = "suhani verma";
+         nistha.name = "nistha verma ";
+                 zoro.id = 78;
+         zoro.name = "zoro verma ";
+// printing attribute
+         zoro.printDetails();
+         nistha.printDetails();
+         suhani.printDetails();
+         int salary = suhani.getSalary();
+        System.out.println(salary);
+
+    }
+
+}
