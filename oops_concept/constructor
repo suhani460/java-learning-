@@ -1,0 +1,33 @@
+class MyMainEmployee {
+    private int id;
+    private String name;
+
+    //public MyMainEmployee(({
+    // id = 67;
+    // name = "your-Name-Here";
+//}
+
+public MyMainEmployee(String myName, int myId) {
+   this.id = myId;
+   this. name = myName;
+}
+
+public String getName() {return name;}
+public void setName(String n) {this.name = n;}
+public int getId() {return id;}
+public void setId(int i){this.id = i;}
+}
+
+
+class main {
+    public static void main(String[] args) {
+
+        MyMainEmployee suhani = new MyMainEmployee(  "programawithsuhani" ,  78 );
+// suhani.setName("code with suhani")
+//suhani.getId (78);
+        System.out.println(suhani.getName());
+        System.out.println(suhani.getId());
+
+    }
+}
+
