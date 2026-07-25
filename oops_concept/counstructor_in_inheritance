@@ -1,0 +1,44 @@
+package com.company;
+
+class Base1 {
+    Base1() {
+        System.out.println("mai ek constructor hoon");
+    }
+    Base1(int x){
+        System.out.println("i am constructor with value of a as: " +x);
+    }
+}
+
+ class  Derived1 extends Base1 {
+     Derived1(){
+
+         System.out.println("i am a derived constructor");
+     }
+         Derived1(int x, int y){
+         super(x);
+
+             System.out.println("i am overloaded constructor of derived with value of b as: " +y);
+         }
+ }
+  class  ChildOfDerived extends Derived1{
+    ChildOfDerived(){
+        System.out.println("i am a child of derived constructor");
+    }
+    ChildOfDerived(int x ,int y , int z){
+        super(x,y);
+        System.out.println("i am a child of derived class: " + z);
+    }
+}
+
+
+ public class Main{
+    public static void main (String args[]){
+        // creating an object class of base class
+     //     Base1 b = new Base1();
+
+      //  Derived1 d = new Derived1();
+        //Derived1 d = new Derived1(89,78);
+ChildOfDerived cd = new ChildOfDerived(89,68,67);
+
+    }
+ }
