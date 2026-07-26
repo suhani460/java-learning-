@@ -1,0 +1,33 @@
+class Phone{
+    public void  showtime (){
+        System.out.println("time is 8am");
+
+    }
+    public void on(){
+        System.out.println("turning on pbone");
+
+    }
+}
+class smartphone extends Phone{
+    public void music(){
+        System.out.println("play the music");
+    }
+    public void on(){
+        System.out.println(" turning on smartphone");
+    }
+}
+ public class Main  {
+    public static  void main (String[] args){
+        //Phone obj = new Phone();//allowed
+        //smartphone smobji = new smartphone(); //
+        // obj.name()  ;
+
+        Phone obj = new smartphone();//yes it is allowed
+        //smartphone obj2 = new Phone ();// not allowed
+
+         obj.showtime();
+         obj.on();
+         //obj.music(); not allowed
+
+    }
+}
