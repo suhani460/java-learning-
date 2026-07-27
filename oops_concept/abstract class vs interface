@@ -1,0 +1,38 @@
+package com.company;
+interface bicycle{
+     int a = 45;
+    void speedup(int increment);
+    void applyBrake (int decrement);
+}
+ class avoncycle implements bicycle{
+    void blowhorn(){
+        System.out.println("pee pee poo pooo");
+    }
+    public void speedup(int increment){
+        System.out.println("applying spe edup");
+    }
+    public  void applyBrake (int decrement){
+        System.out.println("applying brake");
+    }
+    public void blowhorn3kg(){
+        System.out.println("kabhi khushi kabhi gam pee peeee pee pee ");
+    }
+    public  void blowhornhn(){
+        System.out.println("main hoo na popopopo");
+    }
+
+}
+public class Main {
+    public static void main(String[] args){
+        avoncycle cycleharry = new avoncycle();
+        cycleharry.applyBrake(1);
+        // you can create properties in interfaces
+        System.out.println(cycleharry.a);
+        // you cannot modify the properties in interfaces as they are final
+        //cycleharry.a = 678;
+       // System.out.println(cycleharry.a);
+
+        cycleharry.blowhorn3kg();
+        cycleharry.blowhornhn();
+    }
+}
